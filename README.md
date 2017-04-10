@@ -6,6 +6,10 @@ Thanks and good luck!
 
 ## Message Board Application
 The message board application you are going to build has the following requirements:
+[x] Build the frontEnd name/message
+[x] pass it to controller then factory
+[x] pass to DOM
+
 
 * MUST use Angular and MongoDB (however the MongoDB code has been written for you),
 
@@ -19,7 +23,7 @@ The message board application you are going to build has the following requireme
 
 * If the application page is reloaded, all previous messages should appear.
 
-### No HARD or PRO mode on this. Please do not host on Heroku or mLabs. 
+### No HARD or PRO mode on this. Please do not host on Heroku or mLabs.
 
-Once you have completed the application, please submit via GitHub link, then quietly exit the room. 
+Once you have completed the application, please submit via GitHub link, then quietly exit the room.
 Thanks!

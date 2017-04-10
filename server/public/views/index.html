@@ -12,6 +12,27 @@
 
   </head>
   <body>
+    <div class="container">
+      <div class="row">
+        <h1>Message Selections</h1>
+
+      <div class="col-md-5" ng-controller="ControllerOne">
+        <input type="text" ng-model="newMessage.name" placeholder="Name" />
+        <input type="text" ng-model="newMessage.message" placeholder ="Message" />
+        <button class="btn btn-default" ng-click="postData(newMessage)" type="button">Button</button>
+      </div>
+      <div class="col-md-2"></div>
+      <div class="col-md-5 panel-group" ng-controller="ControllerTwo">
+        <div class="panel panel-info" ng-repeat="message in messageList[0]">
+          <div class="panel-heading">{{message.name}}:</div>
+          <div class="panel-body">{{message.message}}</div>
+
+        </div>
+
+
+      </div>
+    </div>
+    </div>
 
   </body>
 </html>

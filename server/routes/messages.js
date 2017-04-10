@@ -23,7 +23,7 @@ router.post('/', function(req,res){
     name: req.body.name,
     message: req.body.message
   });
-
+console.log("message = " + message);
   message.save(function(err, savedMessage){
     if(err){
       console.log(err);
