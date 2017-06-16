@@ -25,5 +25,4 @@ The message board application you are going to build has the following requireme
 
 ### No HARD or PRO mode on this. Please do not host on Heroku or mLabs.
 
-Once you have completed the application, please submit via GitHub link, then quietly exit the room.
-Thanks!
+ ![Screenshot](message.png) 
